@@ -52,8 +52,8 @@ Deep ERP domain edge — building **AI agents** on Aptean's Apparel ERP database
 | ------- | ---------- | ------ |
 | [`medallion-sales-pipeline`](https://github.com/PavanKumarDataEngineer/medallion-sales-pipeline) | 4-source ingestion (CSV · JSON · SQL Server · live REST API) → Bronze / Silver / Gold **star schema** → BI marts + ML feature view. Orchestrated, `.env`-configured, animated architecture. | completed |
 | [`sql-data-warehouse-project`](https://github.com/PavanKumarDataEngineer/-sql-data-warehouse-project) | Modern data warehouse built in **pure T-SQL** on SQL Server — ETL stored procedures, medallion layers, dimensional modeling, and analytics. | completed |
-| `medallion-pyspark` | Same pipeline rebuilt on PySpark + Delta — incremental loads, watermarks, SCD Type 2. | in progress |
-| `adf-medallion-pipeline` | The medallion orchestrated in **Azure Data Factory** — pipelines, triggers, linked services, ADLS Gen2 staging, monitored runs. | planned |
+| [`pyspark-sales-lakehouse`](https://github.com/PavanKumarDataEngineer/pyspark-sales-lakehouse) | Same pipeline rebuilt on PySpark + Delta — incremental loads, watermarks, SCD Type 2. | completed |
+| `adf-medallion-pipeline` | The medallion orchestrated in **Azure Data Factory** — pipelines, triggers, linked services, ADLS Gen2 staging, monitored runs. | in progress |
 | `fabric-lakehouse` | End-to-end **Microsoft Fabric** lakehouse — OneLake, Data Factory pipelines, notebook transforms, Direct Lake Power BI. | planned |
 
 ### Pipeline principles
